@@ -9,6 +9,11 @@ Character::Character(short int health, uint32_t strength, uint32_t exp, short in
     this->speed = speed;
 }
 
+Character::~Character()
+{
+    //delete 
+}
+
 short int Character::GetHealth() const
 {
     return health;
